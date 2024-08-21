@@ -1,0 +1,11 @@
+# virtual environment
+venv
+
+# milvus volumes
+volumes
+
+# PyCharm IDE configuration files
+.idea
+
+# Python cache
+__pycache__

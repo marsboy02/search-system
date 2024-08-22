@@ -3,6 +3,20 @@ milvus를 사용해 검색 시스템을 간단하게 구현한 예제 코드입�
 
 ## environment
 
+### milvus
+
+```bash
+# milvus container 실행
+$ docker-compose up -d
+```
+
+```bash
+# milvus container 종료
+$ docker-compose down
+```
+
+### python
+
 ```bash
 # 가상 환경 생성
 $ python3 -m venv venv
@@ -39,4 +53,3 @@ $ python3 app.py
 
 - [milvus](https://milvus.io/)
 - [flask](https://flask.palletsprojects.com/en/2.0.x/)
-
